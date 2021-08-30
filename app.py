@@ -27,12 +27,16 @@ def predict():
                 Item_Fat_Content = 0
         elif Item_Fat_Content == "Regular":
                 Item_Fat_Content = 1
+        else:
+                Item_Fat_Content = 0
 
 
         if Item_Type == "edible":
                 Item_Type = 0
         elif Item_Type == "non-edible":
                 Item_Type = 1
+        else:
+                Item_Type = 0
 
 
         if Outlet_Size == "Medium":
@@ -41,6 +45,8 @@ def predict():
                 Outlet_Size = 2
         elif Outlet_Size == "High":
                 Outlet_Size = 0
+        else:
+                Outlet_Size = 2
 
 
         if Outlet_Location_Type == "Tier 1":
@@ -49,6 +55,8 @@ def predict():
                 Outlet_Location_Type = 1
         elif Outlet_Location_Type == "Tier 3":
                 Outlet_Location_Type = 2
+        else:
+                Outlet_Location_Type = 0
 
 
         if Outlet_Type == "Supermarket Type1":
@@ -59,6 +67,8 @@ def predict():
                 Outlet_Type = 3
         elif Outlet_Type == "Grocery Store":
                 Outlet_Type = 0
+        else:
+                Outlet_Type = 1
 
         inputs = np.array([Item_Weight, Item_Fat_Content, Item_Visibility, Item_Type, Item_MRP, Outlet_Size, Outlet_Location_Type, Outlet_Type]).reshape(1, -1)
 
