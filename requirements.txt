@@ -8,8 +8,6 @@ matplotlib
 pandas
 seaborn
 klib
-tensorflow
-pickle
 Werkzeug
 itsdangerous
 MarkupSafe
