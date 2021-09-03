@@ -23,9 +23,9 @@ def predict():
         Outlet_Type=str(request.form['Outlet_Type'])
 
 
-        if Item_Fat_Content == "Low Fat":
+        if Item_Fat_Content == "Low Fat" or Item_Fat_Content == "low fat" or Item_Fat_Content == "low":
                 Item_Fat_Content = 0
-        elif Item_Fat_Content == "Regular":
+        elif Item_Fat_Content == "Regular" or Item_Fat_Content == "regular":
                 Item_Fat_Content = 1
         else:
                 Item_Fat_Content = 0
@@ -33,39 +33,39 @@ def predict():
 
         if Item_Type == "edible":
                 Item_Type = 0
-        elif Item_Type == "non-edible":
+        elif Item_Type == "non-edible" or Item_Type == "non edible":
                 Item_Type = 1
         else:
                 Item_Type = 0
 
 
-        if Outlet_Size == "Medium":
+        if Outlet_Size == "Medium" or Outlet_Size == "medium":
                 Outlet_Size = 1
-        elif Outlet_Size == "Small":
+        elif Outlet_Size == "Small" or Outlet_Size == "small":
                 Outlet_Size = 2
-        elif Outlet_Size == "High":
+        elif Outlet_Size == "High" or Outlet_Size == "high":
                 Outlet_Size = 0
         else:
                 Outlet_Size = 2
 
 
-        if Outlet_Location_Type == "Tier 1":
+        if Outlet_Location_Type == "Tier 1" or Outlet_Location_Type == "tier1" or Outlet_Location_Type == "tier 1":
                 Outlet_Location_Type = 0
-        elif Outlet_Location_Type == "Tier 2":
+        elif Outlet_Location_Type == "Tier 2" or Outlet_Location_Type == "tier 2" or Outlet_Location_Type == "tier2":
                 Outlet_Location_Type = 1
-        elif Outlet_Location_Type == "Tier 3":
+        elif Outlet_Location_Type == "Tier 3" or Outlet_Location_Type == "tier 3" or Outlet_Location_Type == "tier3":
                 Outlet_Location_Type = 2
         else:
                 Outlet_Location_Type = 0
 
 
-        if Outlet_Type == "Supermarket Type1":
+        if Outlet_Type == "Supermarket Type1" or Outlet_Type == "supermarket type1":
                 Outlet_Type = 1
-        elif Outlet_Type == "Supermarket Type2":
+        elif Outlet_Type == "Supermarket Type2" or Outlet_Type == "supermarket type2":
                 Outlet_Type = 2
-        elif Outlet_Type == "Supermarket Type3":
+        elif Outlet_Type == "Supermarket Type3" or Outlet_Type == "supermarket type3":
                 Outlet_Type = 3
-        elif Outlet_Type == "Grocery Store":
+        elif Outlet_Type == "Grocery Store" or Outlet_Type == "grocery store":
                 Outlet_Type = 0
         else:
                 Outlet_Type = 1
