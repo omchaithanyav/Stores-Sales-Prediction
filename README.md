@@ -22,7 +22,7 @@ anomalies and common patterns can be discovered.
 5. The data is now ready to feed to our model, I tried various models for prediction and i found that Gradient Boosting Regressor was giving the best results.
 6. Then i saved my model.(necessary step)
 7. Used Flask to code a web application and in this code i loaded my saved model and used it for predictions.
-8. Finally when the app was working well in the local server, i deployed it in heroku platform.
+8. Finally when the app was working well in the local server, i deployed it in heroku platform(PAAS).
 
 # 🖥️ Installation
 # 🛠️ Requirements
