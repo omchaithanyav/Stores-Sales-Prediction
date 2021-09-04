@@ -34,4 +34,4 @@ anomalies and common patterns can be discovered.
 * matplotlib
 * seaborn
 
-Application Link: https://stores-sales-prediction-app.herokuapp.com/ 
+#Application Link: https://stores-sales-prediction-app.herokuapp.com/ 
