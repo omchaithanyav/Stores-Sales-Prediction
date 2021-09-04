@@ -7,7 +7,7 @@ This repository represents: "Sales Stores Prediction"(An end to end ML Project)
 https://www.kaggle.com/brijbhushannanda1979/bigmart-sales-data
 
 # 📝 Description
-#Problem Statement:
+# Problem Statement:
 Nowadays, shopping malls and Big Marts keep track of individual item sales data in 
 order to forecast future client demand and adjust inventory management. In a data 
 warehouse, these data stores hold a significant amount of consumer information and 
